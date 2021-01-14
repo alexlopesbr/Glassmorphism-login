@@ -7,7 +7,7 @@
    </p>
 
 - ✅ "Desktop development"
-- 🔄 "Mobile development"
+- ✅ "Mobile development"
 
 ---
 

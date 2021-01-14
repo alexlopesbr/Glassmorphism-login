@@ -41,10 +41,11 @@ body {
 .container {
   display: grid;
 
-  width: 400px;
+  max-width: 400px;
   height: 661px;
 
   padding: 32px;
+  margin: 0 20px;
 
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -196,4 +197,13 @@ body {
 .credits > a {
   margin-top: 15px;
   font-size: 12px;
+}
+
+/* QUERIES */
+
+@media (max-width: 405px) {
+  .signup-link,
+  .signup {
+    font-size: 13px;
+  }
 }
